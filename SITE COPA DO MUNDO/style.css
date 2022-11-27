@@ -1,0 +1,112 @@
+.html, body{
+  background-image: url("IMAGENS/COPA DO MUNDO.jpeg");
+}
+/* .fonte{
+  background-color: ghostwhite;
+  border: 1px solid red;
+  border-radius: 3px;
+} */
+.container{
+  background-color: #29056b;
+  border-radius: 10px;
+  padding: auto;
+  display: grid;
+  gap: 1px;
+  grid-template-areas: 
+  'logo logo logo logo'
+  'header header header header'
+  'aside main main main'
+  'footer footer footer footer'
+  
+}
+#logo{
+  grid-area: logo;
+   font-family: sans-serif ;
+  background-color: #400967;
+   display: flex;
+    justify-content: space-between;  
+}
+
+.h1{
+  font-family: 'FIFA Welcome', sans-serif;
+  color: white;
+}
+.h2{
+  color: white;
+}
+.h3{
+  color: white;
+}
+#header{
+grid-area: header;
+
+}
+.menu{ 
+  align-items: center;
+  color: white;
+  height: 5vh;
+  font-family: sans-serif ;
+  background-color:	#8A2BE2;
+}
+.times{
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  
+}
+.estadios{
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.competicoes{
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.sobre{
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+
+#aside{
+grid-area: aside;
+height: auto;
+padding: 1px;
+border: 1px solid gray;
+}
+.groups{
+  height: 60vh;
+  border: 3px solid black;
+}
+
+#main{
+grid-area: main;
+height: auto;
+padding: 20px;
+border: 1px solid black;
+}
+#footer{
+  grid-area: main;
+height: auto;
+padding: 20px;
+border: 1px solid gray;
+background-color: white;
+}
